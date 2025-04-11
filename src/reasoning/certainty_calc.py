@@ -2,6 +2,7 @@ import torch
 import torch.nn.functional as F
 from typing import Any, Dict, List, Optional
 
+
 def capture_confidence_tokens(
     model,
     tokenizer,
